@@ -1,5 +1,6 @@
 import arrayBufferToBase64String from './arrayBufferToBase64String';
 import { assertAssociationPort } from './associationPort';
+import crypto from './crypto';
 import { SolanaMobileWalletAdapterForbiddenWalletBaseURLError } from './errors';
 import getStringWithURLUnsafeBase64CharactersReplaced from './getStringWithURLUnsafeBase64CharactersReplaced';
 

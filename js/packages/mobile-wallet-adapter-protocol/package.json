@@ -35,5 +35,8 @@
     },
     "devDependencies": {
         "agadoo": "^2.0.0"
+    },
+    "dependencies": {
+        "@microsoft/msrcrypto": "github:microsoft/MSR-JavaScript-Crypto"
     }
 }

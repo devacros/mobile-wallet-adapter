@@ -1,3 +1,5 @@
+import crypto from './crypto';
+
 export default async function generateECDHKeypair(): Promise<CryptoKeyPair> {
     return await crypto.subtle.generateKey(
         {

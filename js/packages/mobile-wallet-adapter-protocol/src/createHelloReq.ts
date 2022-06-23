@@ -1,3 +1,5 @@
+import crypto from './crypto';
+
 export default async function createHelloReq(ecdhPublicKey: CryptoKey, associationKeypairPrivateKey: CryptoKey) {
     const publicKeyBuffer = await crypto.subtle.exportKey('raw', ecdhPublicKey);
     const signatureBuffer = await crypto.subtle.sign(

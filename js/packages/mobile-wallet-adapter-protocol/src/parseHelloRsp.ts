@@ -1,3 +1,5 @@
+import crypto from './crypto';
+
 /**
  * A secret agreed upon by the app and the wallet. Used as
  * a symmetric key to encrypt and decrypt messages over an

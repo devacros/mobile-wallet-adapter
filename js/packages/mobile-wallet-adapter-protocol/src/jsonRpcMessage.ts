@@ -1,3 +1,4 @@
+import crypto from './crypto';
 import { SolanaMobileWalletAdapterProtocolJsonRpcError } from './errors';
 import { SharedSecret } from './parseHelloRsp';
 

@@ -1920,6 +1920,10 @@
   resolved "https://registry.npmjs.org/@mdn/browser-compat-data/-/browser-compat-data-4.2.1.tgz#1fead437f3957ceebe2e8c3f46beccdb9bc575b8"
   integrity sha512-EWUguj2kd7ldmrF9F+vI5hUOralPd+sdsUnYbRy33vZTuZkduC1shE9TtEMEjAQwyfyMb4ole5KtjF8MsnQOlA==
 
+"@microsoft/msrcrypto@github:microsoft/MSR-JavaScript-Crypto":
+  version "1.6.5"
+  resolved "https://codeload.github.com/microsoft/MSR-JavaScript-Crypto/tar.gz/c030769a0c9c76cdaf7a2158cbd1792995d83d18"
+
 "@mui/base@5.0.0-alpha.86":
   version "5.0.0-alpha.86"
   resolved "https://registry.npmjs.org/@mui/base/-/base-5.0.0-alpha.86.tgz#7ac5af939cec7e763c1bf49bf5e30bb9464c4ebf"

@@ -1,3 +1,5 @@
+import crypto from './crypto';
+
 export default async function generateAssociationKeypair(): Promise<CryptoKeyPair> {
     return await crypto.subtle.generateKey(
         {
