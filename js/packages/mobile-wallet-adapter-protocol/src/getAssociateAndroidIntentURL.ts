@@ -3,6 +3,7 @@ import { assertAssociationPort } from './associationPort';
 import crypto from './crypto';
 import { SolanaMobileWalletAdapterForbiddenWalletBaseURLError } from './errors';
 import getStringWithURLUnsafeBase64CharactersReplaced from './getStringWithURLUnsafeBase64CharactersReplaced';
+import URL from './url';
 
 const INTENT_NAME = 'solana-wallet';
 
