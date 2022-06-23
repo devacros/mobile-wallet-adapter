@@ -1,3 +1,5 @@
+import toBase64 from './toBase64';
+
 // https://stackoverflow.com/a/9458996/802047
 export default function arrayBufferToBase64String(buffer: ArrayBuffer) {
     let binary = '';
@@ -6,5 +8,5 @@ export default function arrayBufferToBase64String(buffer: ArrayBuffer) {
     for (let ii = 0; ii < len; ii++) {
         binary += String.fromCharCode(bytes[ii]);
     }
-    return window.btoa(binary);
+    return toBase64(binary);
 }
