@@ -34,10 +34,12 @@
         "prepublishOnly": "agadoo"
     },
     "devDependencies": {
-        "agadoo": "^2.0.0"
+        "agadoo": "^2.0.0",
+        "@types/react-native": "^0.68.0"
     },
     "dependencies": {
         "@microsoft/msrcrypto": "github:microsoft/MSR-JavaScript-Crypto",
+        "react-native": "^0.69.0",
         "react-native-url-polyfill": "^1.3.0"
     }
 }
